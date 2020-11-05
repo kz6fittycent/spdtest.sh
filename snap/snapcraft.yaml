@@ -23,12 +23,10 @@ apps:
       
 package-repositories:
   - type: apt
-    deb-types: [deb]
-    name: generic
-    components: []
-    suites: [/]
-#    key-id: 379CE192D401AB61
-    url: https://ookla.bintray.com/debian  
+    components: [main]
+    suites: [generic]
+    key-id: 8756C4F765C9AC3CB6B85D62379CE192D401AB61
+    url: https://ookla.bintray.com/debian
   
 parts:
   spdtest:
